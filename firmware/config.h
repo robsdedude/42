@@ -38,4 +38,11 @@
 /* Locking resynchronize hack */
 #define LOCKING_RESYNC_ENABLE
 
-#define TAPPING_TERM 100
+//#undef TAPPING_TERM
+//#undef TAPPING_TERM_PER_KEY
+#define TAPPING_TERM 140
+//#undef HOLD_ON_OTHER_KEY_PRESS
+//#undef HOLD_ON_OTHER_KEY_PRESS_PER_KEY
+#define PERMISSIVE_HOLD
+//#undef PERMISSIVE_HOLD_PER_KEY
+//#define HOLD_ON_OTHER_KEY_PRESS
